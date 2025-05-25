@@ -33,7 +33,7 @@ func main() {
 
 	router.POST("/addpost", addPosts)
 
-	router.Run("localhost:8000")
+	router.Run("0.0.0.0")
 
 }
 
